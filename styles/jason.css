@@ -53,14 +53,15 @@ nav{
 nav a{
 	float:left;
 	display:block;
+    width:10rem;
 	margin:0 auto 0 auto;
-	width:130px;
 	color:#342c28;
 	text-align:center;
 	font-family:Arial, verdana, sans-serif;
 	font-weight:bold;
 	text-decoration:none;
 	padding:12px 0 12px 0;
+    margin-left: 6%;
 }
 
 nav a:hover{
@@ -93,12 +94,11 @@ section{
 }
 
 .blue p{
-	padding-top:2%;
+	padding-top:1%;
 	padding-left:175px;
-	padding
 }
 .blue img{
-	height:150px;
+	height:163px;
 	width:150px;
 	float:left;
 	border:1px solid #fff;

@@ -1,0 +1,20 @@
+#blog{
+    width:960px;
+	height:625px;
+	position:relative;
+	float:left;
+   /* background-image:url(assets/images/bg.png);*/
+	font-size:20px;
+	font-family:Arial, veranda, sans-serif;
+	font-weight:bold;
+	color:white;
+	text-align:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid #6186b5;
+	overflow:hidden;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
