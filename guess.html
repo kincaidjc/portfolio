@@ -1,0 +1,65 @@
+<!doctype html>
+<html> 
+
+	<head>
+		
+		<title>Guessing Game</title>
+		
+			<meta name="description" content="Guessing Game">
+			<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+			<meta name="author" content="Jason Kincaid">
+			<meta charset="UTF-8">
+			<link rel="shortcut icon" href="assets/images/favIcon.png">
+			<link rel="stylesheet" type="text/css" href="guess/guess.css"/>
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+			<script type="text/javascript" src="guess/guess.js"></script>
+	</head>
+	
+<body>
+	
+<div id="wrapper">
+
+	<header>
+		<img src="assets/images/header.png">
+	</header>
+	
+	<nav>
+		<a href="index.html">Home</a>
+
+	</nav>
+	
+	<section>
+	
+	
+		
+		<div id="game" class="blue">
+			<div id="stage">
+				<div id="scale"> </div>
+				<div id="arrow"> </div>
+			</div>
+			<!--End of stage--->
+			<p id="output">I am thinking of a number between 1 and 100, try and guess what it is.</p>
+			<div id="end">
+				<button id="reset">Play again?</button>
+			</div>
+			<!--End end-->
+			<div id="start">
+				<input id="input" type="text" placeholder="Enter your guess." autofocus>
+				<button id="button">Guess</button>
+			</div>
+			<!--End start-->
+			
+		</div>
+		<!--End of Game-->
+			
+	</section>		
+	
+	
+	<footer>
+		&copy; Copyright 2016, Jason Kincaid.
+	</footer>
+	
+</div>
+<!--end of wrapper-->
+</body>
+</html>
