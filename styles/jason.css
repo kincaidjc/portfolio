@@ -2,8 +2,7 @@
 
 body{
 	background-color:#000033;
-	background-image:url(../assets/images/bg.png);
-	
+	background-image:url(../assets/images/bg.png);	
 }
 
 #wrapper{
@@ -16,8 +15,6 @@ body{
 	background-image:url(../assets/images/wrapper2.png);
 	border-radius: 15px;
 	box-shadow:10px 10px 5px #000000;
-	
-	
 }
 
 header{
@@ -38,13 +35,12 @@ header{
 
 nav{
 	float:left;
-	width:650px;
+	width:250px;
 	height:40px;
 	background-color:#6186b5;
 	margin-bottom:10px;
-	padding: 0 155px 0 155px;
+    margin-left: 22.4rem;
 	background-image:url(../assets/images/nav.png);
-	
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
@@ -53,15 +49,14 @@ nav{
 nav a{
 	float:left;
 	display:block;
-    width:10rem;
-	margin:0 auto 0 auto;
+    width:5rem;
 	color:#342c28;
 	text-align:center;
 	font-family:Arial, verdana, sans-serif;
 	font-weight:bold;
 	text-decoration:none;
 	padding:12px 0 12px 0;
-    margin-left: 18%;
+    margin-left: 11%;
 }
 
 nav a:hover{
@@ -133,9 +128,34 @@ h3{
 	color:black;
 	font-family:Arial, verdana, sans-serif;
 	font-weight:bold;
+    clear: both;
 }
 
+#websites{
+	padding-top:20px;
+	margin-bottom:20px;
+	clear:both;
+}
 
+#websites img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#poh{
+    margin-top: 2rem;
+    width: 200px;
+    margin: auto
+}
+
+#poh p{
+	font-size:15px;
+	font-family:Arial, veranda, sans-serif;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+}
 
 #games{
 	
